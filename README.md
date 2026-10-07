@@ -1,5 +1,5 @@
 # SRun Portal iPadOS
-
+感谢Chatgpt
 这是 `srunportal` Java 版本的原生 Swift / SwiftUI iPadOS 重写。
 
 ## 功能
