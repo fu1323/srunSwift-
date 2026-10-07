@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000000000001 /* SrunPortalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000001 /* SrunPortalApp.swift */; };
+		A100000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000002 /* ContentView.swift */; };
+		A100000000000003 /* PortalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000003 /* PortalViewModel.swift */; };
+		A100000000000004 /* SrunClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000004 /* SrunClient.swift */; };
+		A100000000000005 /* SrunTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000005 /* SrunTools.swift */; };
+		A100000000000006 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000006 /* KeychainStore.swift */; };
+		D9EBE6EC3076268E00C4605D /* SrunEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBE6EB3076268E00C4605D /* SrunEncoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B100000000000001 /* SrunPortalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrunPortalApp.swift; sourceTree = "<group>"; };
+		B100000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B100000000000003 /* PortalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalViewModel.swift; sourceTree = "<group>"; };
+		B100000000000004 /* SrunClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrunClient.swift; sourceTree = "<group>"; };
+		B100000000000005 /* SrunTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrunTools.swift; sourceTree = "<group>"; };
+		B100000000000006 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		B100000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B100000000000008 /* SrunPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SrunPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EBE6EB3076268E00C4605D /* SrunEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrunEncoder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D200000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D200000000000003 /* SrunPortal */,
+				D200000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D200000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B100000000000008 /* SrunPortal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D200000000000003 /* SrunPortal */ = {
+			isa = PBXGroup;
+			children = (
+				D9EBE6EB3076268E00C4605D /* SrunEncoder.swift */,
+				B100000000000001 /* SrunPortalApp.swift */,
+				B100000000000002 /* ContentView.swift */,
+				B100000000000003 /* PortalViewModel.swift */,
+				B100000000000004 /* SrunClient.swift */,
+				B100000000000005 /* SrunTools.swift */,
+				B100000000000006 /* KeychainStore.swift */,
+				B100000000000007 /* Info.plist */,
+			);
+			path = SrunPortal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C100000000000001 /* SrunPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C200000000000001 /* Build configuration list for PBXNativeTarget "SrunPortal" */;
+			buildPhases = (
+				C300000000000001 /* Sources */,
+				C300000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SrunPortal;
+			productName = SrunPortal;
+			productReference = B100000000000008 /* SrunPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D100000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					C100000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = C200000000000002 /* Build configuration list for PBXProject "SrunPortal" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D200000000000001;
+			productRefGroup = D200000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C100000000000001 /* SrunPortal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C300000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C300000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000000000001 /* SrunPortalApp.swift in Sources */,
+				D9EBE6EC3076268E00C4605D /* SrunEncoder.swift in Sources */,
+				A100000000000002 /* ContentView.swift in Sources */,
+				A100000000000003 /* PortalViewModel.swift in Sources */,
+				A100000000000004 /* SrunClient.swift in Sources */,
+				A100000000000005 /* SrunTools.swift in Sources */,
+				A100000000000006 /* KeychainStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E100000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SrunPortal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xin.chunming.SrunPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E100000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SrunPortal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xin.chunming.SrunPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E200000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SrunPortal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xin.chunming.SrunPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E200000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SrunPortal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xin.chunming.SrunPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C200000000000001 /* Build configuration list for PBXNativeTarget "SrunPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E100000000000001 /* Debug */,
+				E100000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C200000000000002 /* Build configuration list for PBXProject "SrunPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E200000000000001 /* Debug */,
+				E200000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D100000000000001 /* Project object */;
+}
