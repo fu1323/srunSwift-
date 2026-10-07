@@ -1,7 +1,8 @@
 # SRun Portal iPadOS
-感谢Chatgpt
+感谢Chatgpt<br>
 这是 `srunportal` Java 版本的原生 Swift / SwiftUI iPadOS 重写。
-
+<br>
+Java原版的仓库:https://github.com/fu1323/srunportal  <br>
 ## 功能
 
 - 检测校园网 Portal
@@ -26,7 +27,7 @@
 - 联网检测地址，默认 `223.5.5.5`
 
 ## 注意
-
+（给独立逆向的人一个提示：注意那个xxtea发http请求的时候用的编码方式，服务器一直提示验证失败，本人在哪里卡了好久才发现）
 这个项目允许 HTTP 请求，因为很多校园网 Portal 仍然使用 HTTP。生产环境如果认证服务器全部支持 HTTPS，建议删除 `NSAllowsArbitraryLoads` 并配置精确的 ATS 例外。
 
 Java 原版中有一个 `ac_id` 自动探测步骤；本 Swift 版目前把它保留在 `rad_user_info` 流程中。如果你学校的 Portal 页面本身能直接提供 `ac_id`，后续可以再加入完全一致的页面解析。
