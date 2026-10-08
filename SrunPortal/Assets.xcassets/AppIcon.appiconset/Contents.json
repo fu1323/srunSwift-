@@ -1,0 +1,38 @@
+{
+  "images" : [
+    {
+      "filename" : "已粘贴 2026-10-08 下午1.18.26-1（拖移项目） 拷贝 1.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "已粘贴 2026-10-08 下午1.18.26-1（拖移项目）_副本.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "filename" : "已粘贴 2026-10-08 下午1.18.26-1（拖移项目） 拷贝.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
