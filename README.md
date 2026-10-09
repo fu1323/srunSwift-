@@ -1,3 +1,8 @@
+# 运行截图
+<img width="1640" height="2360" alt="IMG_0561" src="https://github.com/user-attachments/assets/34afc9f7-016e-4ba1-a5e2-f20f6f2084a7" />
+
+<br>
+
 # SRun Portal iPadOS
 感谢Chatgpt<br>
 这是 `srunportal` Java 版本的原生 Swift / SwiftUI iPadOS 重写。
